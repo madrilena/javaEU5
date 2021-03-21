@@ -1,4 +1,4 @@
-package live_reviev_sections.week01;
+package live_review_sessions.week01;
 
 public class PrintStatement {
 
