@@ -1,6 +1,6 @@
 package day04_aritmeticOperators;
 
-class additionConcat {
+public class additionConcat {
 
 	public static void main(String[] args) {
 		
@@ -20,6 +20,11 @@ class additionConcat {
 		
 		//Boolean+Number
 		//System.out.println(true+1);
+		
+		System.out.println((2+0+3+"Cybertek")); //5Cybertec
+		System.out.println("Cybertek"+2+0+5);   //Cybertec205
+		System.out.println(2+0+5+"Cybertek"+2+0+5); //7Cybertek205
+		System.out.println(2+0+5+"Cybertek"+(2+0+1));//7Cybertek3
 		
 		
 		
