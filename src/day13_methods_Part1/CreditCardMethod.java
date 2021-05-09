@@ -14,7 +14,7 @@ public class CreditCardMethod {
 			noQualify();
 			
 		}
-
+	
 	}
 
 	 public static void noQualify() {
