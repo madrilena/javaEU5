@@ -5,7 +5,7 @@ public class Question_21 {
 	public static void main(String[] args) {
 		
 		String input="abXYabc";
-		int wordLength=2;
+		int wordLength=1;
 		String word=input.substring(0,wordLength);
 		
 		int counter=0;
