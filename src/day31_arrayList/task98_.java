@@ -4,7 +4,7 @@ public class task98_ {
 
 	public static void main(String[] args) {
 		
-		String str1 = " &^%^1&8O^^..ne. .52||{{T.*@,(wo#$ %^*f!@%^<<i86876ve&%^$ ^%$S$..,,!i!%*&#x&*@!$";
+		String str1 = "&^%^1&8O^^..ne. .52||{{T.*@,(wo#$ %^*f!@%^<<i86876ve&%^$ ^%$S$..,,!i!%*&#x&*@!$";
 		System.out.println(decodeTheCode(str1));
 		
 		String str2 = "N000000i%$!,n9!!!!<e>>>>> 43.***T#$#%hr##<e><e>><{{ ###f##00o00###u%$#$##$#r";
@@ -15,10 +15,10 @@ public class task98_ {
     
 	public static String decodeTheCode(String s) {
 		
-		String str = "";
+		String str ="";
 		for(int i=0;i<s.length();i++) {
 			
-			if(Character.isAlphabetic(s.charAt(i)) || s.charAt(i) == ' ') {
+			if(Character.isAlphabetic(s.charAt(i)) || s.charAt(i) ==' ') {
 				
 				str = str + s.charAt(i);
 			}
@@ -27,7 +27,7 @@ public class task98_ {
 		
 		String[] arr = str.split(" ");
 		
-		String str2= "";
+		String str2="";
 		for (String value : arr) { //
 			
 			str2 = str2 + getDigit(value) + " ";
