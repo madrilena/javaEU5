@@ -12,7 +12,7 @@ public class Lab4_Question24 {
          
 		System.out.println(isEverywhere(x, a));
 	}
-    public static boolean isEverywhere(int[] arr, int[] number) {
+    public static boolean isEverywhere(int[] arr, int number) {
     	
     	for(int i=0;i<arr.length-2;i++) {
     		
