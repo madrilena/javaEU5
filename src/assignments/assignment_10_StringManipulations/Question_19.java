@@ -4,6 +4,19 @@ public class Question_19 {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * Return the number of times that the string "java" appears anywhere in the given string word.
+
+	Sample Output:
+
+     input: javaxjava
+     output: 2
+
+     input: javaxjavaapplepearjavaegg
+     output: 3
+     
+		 */
+		
 		String input= "javaxjavaapplepearjavaegg";
 		String str="java";
 		

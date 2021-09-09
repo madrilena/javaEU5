@@ -26,7 +26,7 @@ public class wrapperClassMethods {
 		System.out.println(Character.isAlphabetic(word.charAt(0)));
 		System.out.println(Character.isDigit(word.charAt(6)));
 		
-		public static Boolean isLetter
+		
 		
 		
 	}
